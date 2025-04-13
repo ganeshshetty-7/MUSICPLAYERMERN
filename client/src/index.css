@@ -1,0 +1,10 @@
+body {
+  width: 100%;
+  height: 98vh;
+background-image: url("D:\musicplayer\client\src\assets\logo_wave-spin_final.gif");
+  background-size: 750px;
+  background-attachment: fixed;
+  overflow: hidden;
+  display: grid;
+  place-items: center; 
+}
