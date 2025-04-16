@@ -6,7 +6,7 @@ const audioSchema = new mongoose.Schema({
     audioPath: String
 });
 
-const audioModel = mongoose.model('file', audioSchema);
+const audioModel = mongoose.model('file', audioSchema, 'songs_db');
 
 module.exports = audioModel;
 
